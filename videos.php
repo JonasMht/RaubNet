@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="icon" href="asset/img/logo.png">
+		<link rel="shortcut icon" href="asset/img/logo.png">
+		<title>RaubNet | Videos</title>
+        <meta name="keywords" content="raubnet,raubbeast,digital,art,future,painting">
+        <meta name="description" content="Unity will succeed!" />
+		<meta name="msapplication-tap-highlight" content="yes" />
+        
+
+		<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+		<link rel="stylesheet" href="css/global/global.css">
+        <link rel="stylesheet" href="css/videos/videos.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		
+        <script src="js/jquery-3.3.1.min.js"></script>
+        
+    </head>
+
+<body>
+    <div class="pillar" style="min-height: 100%;">
+<header>
+    
+	
+
+    <style>
+        .videos-button a{
+            color: rgba(255,234,150,1);
+                }
+        .videos-common a:link{
+            color: rgba(255,234,150,1);
+        }
+        .videos-common a:hover{
+            color: rgba(255,234,150,1);
+        }
+        .videos-button a:visited{
+	       color: rgba(255,234,150,1);
+                }
+    </style>
+    
+    <?php include('subdiv/media.php');?>
+    	
+	 
+</header>
+<article>
+
+<section class="video-content">
+	<p class="title">VIDEOS</p>
+	<div id="youtube">
+		<div id="video-placeholder"></div>
+	</div>
+
+	<p class="description">Intrested in how I do it?<br/>Here you will find videos showing me making the magic happen</p>
+	<p class="title">WATCH ME LIVE!</p>
+		<div id="twitch">
+		<div id="twitch-embed"></div>
+		<iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/embed/RaubNet/chat?darkpopout="  width="1000" height="273">
+		</iframe>
+	</div>
+
+	
+
+	<p class="description">Live ? Sure !<br/>Want to see me drawing and commenting my work in real time? Sure thing, just look out for the Flash info banner on the website or my twitter acount throut wich I'll notify you about upcoming streams<br/></p>
+</section>
+
+
+
+	
+	
+</article>
+    </div>
+		
+
+	
+	
+	<?php include('subdiv/E3.php');?>
+	
+	
+	
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
+	<script src="https://embed.twitch.tv/embed/v1.js"></script>
+	<script src="https://www.youtube.com/iframe_api"></script>
+    
+    <?php include('subdiv/swipe.php');?>
+
+    <script type="text/javascript">
+
+		var player;
+  function onYouTubePlayerAPIReady() {
+    player = new YT.Player('video-placeholder', {
+      height: '563px',
+      width: '1000px',
+		playerVars: {
+            color: 'white',
+			 listType:'playlist',
+            list: 'PLnpNkpHFMblLk-v08EqMMIaMXcrfIUBrv'
+        },
+		events: {
+            'onReady': onPlayerReady
+        },
+		
+    });
+  }
+
+function onPlayerReady(event) {
+    player.mute();
+    player.playVideo();
+}
+
+new Twitch.Embed("twitch-embed", {
+        width: 1000,
+        height: 563,
+	layout: "video",
+	theme:"dark",
+	auto_play: "true",
+        channel: "RaubBeast"
+      });
+	</script>
+</body>
+
+</html>

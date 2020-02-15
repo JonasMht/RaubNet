@@ -1,0 +1,14 @@
+	var title="PrimeHunter";
+	var subtitle="05/07/2018";
+	
+	var matrix = JSON.parse(sessionStorage.getItem("matrix"));
+	$("#content").append('<div class="swiper-slide"><div class="swiper-zoom-container"><img src="asset/pages/page_'+matrix[0]+'/PrimeHunter.jpg"title='+title+'></div></div>');
+ 
+
+
+
+ $(".title").html(title);
+ $(".subtitle").html(subtitle);
+ $(".subtext1").html("<p style='font-size:30px;'>Text Title</p>Some random text to fill the gap, this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test</br> jump");
+ $(".subImg").append('<img src="asset/pages/page_'+matrix[0]+'/subcontent/Cube.png">');
+ $(".subtext2").html("<p>Some random text to fill the gap, this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test / this is a test</p>");

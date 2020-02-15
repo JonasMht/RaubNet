@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="icon" href="asset/img/logo.png">
+		<link rel="shortcut icon" href="asset/img/logo.png">
+		<title>RaubNet</title>
+        <meta name="keywords" content="raubnet,raubbeast,digital,art,future,painting">
+        <meta name="description" content="Unity will succeed!" />
+		<meta name="msapplication-tap-highlight" content="yes" />
+        
+
+		<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+		<link rel="stylesheet" href="css/global/global.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/swiper.css">
+        
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="https://gumroad.com/js/gumroad.js"></script>
+        
+        
+        
+    </head>
+    
+<body>
+    <div class="pillar" style="min-height: 100%;">
+<header>
+    
+	
+
+    <style>
+        .shop-button a{
+            color: rgba(255,234,150,1);
+                }
+        .shop-common a:link{
+            color: rgba(255,234,150,1);
+        }
+        .shop-common a:hover{
+            color: rgba(255,234,150,1);
+        }
+        .shop-button a:visited{
+	       color: rgba(255,234,150,1);
+                }
+    </style>
+    
+    <?php include('subdiv/media.php');?>
+    	
+	 
+</header>
+<article>
+	<section>
+        <div><a href="https://gum.co/ItQnv">Click!</a></div>
+        <div><a href="https://gum.co/ItQnv">Click!</a></div>
+        <img style="position: relative; width: 300px;left: 50%;transform: translate(-50%, 0);"src="asset/img/wip.png">
+	</section>
+    
+    <!--
+        <section class="entry-content cf" itemprop="articleBody">
+<p><a href="https://gum.co/NEjyF"><img class="ngg-singlepic ngg-none gumroadthumb" src="http://deivcalviz.com/blog/wp-content/uploads/2010/10/GumroadAkantha.jpg" alt="Character Key Art Illustration Tutorial"></a></p>
+<p><a href="https://gum.co/ThuNQ"><img class="ngg-singlepic ngg-none gumroadthumb" src="http://deivcalviz.com/blog/wp-content/uploads/2010/10/GumroadDynamicSplash.jpg" alt="Dynamic Splash Page Tutorial"></a></p>
+<p><a href="https://gum.co/XeRsl"><img class="ngg-singlepic ngg-none gumroadthumb" src="http://deivcalviz.com/blog/wp-content/uploads/2010/10/GumroadThumbnail_FantasyCity.jpg" alt="Fantasy City Tutorial"></a></p>
+<p><a href="https://gum.co/SQEx"><img class="ngg-singlepic ngg-none gumroadthumb" src="http://deivcalviz.com/blog/wp-content/uploads/2010/10/GumroadThumbnail_Dragonv2.jpg" alt="Dragon Watchers Tutorial "></a></p>
+<p><a href="https://gum.co/jaarr"><img class="ngg-singlepic ngg-none gumroadthumb" src="http://deivcalviz.com/blog/wp-content/uploads/2010/10/GumroadThumbnail_Redv2.jpg" alt="Red Knight Tutorial Tutorial"></a></p>
+<div><a href="https://gum.co/TsWvn"><img class="ngg-singlepic ngg-none gumroadthumb" src="http://deivcalviz.com/blog/wp-content/uploads/2010/10/GumroadThumbnail_Brushesv2.jpg" alt="Brushes Gumroad"></a></div>
+</section>
+    -->
+</article>
+    </div>
+
+
+
+	
+	
+	<?php include('subdiv/E3.php');?>
+	
+
+
+<script src="js/jquery-3.3.1.min.js"></script>
+	
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
+    
+    <?php include('subdiv/swipe.php');?>
+
+    
+    
+</body>
+</html>

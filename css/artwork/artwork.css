@@ -1,0 +1,128 @@
+#selector{
+  position: relative;
+	text-align: center;
+    background-color: rgba(0, 5, 20, 1);
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+	width: 1000px;
+	left: 50%;
+	transform: translate(-50%, 0);
+    border-top-style: solid;
+	border-bottom-style: solid;
+	border-radius: 0px;
+	border-width: 2px;
+	border-bottom-width: 2px;
+	border-color: rgba(209,174,95,1);
+}
+.first-selector{
+	position: absolute;
+	
+}
+.second-selector{
+	position: absolute;
+	
+}
+#selector > button{
+	background: rgba(0, 5, 20, 0);
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	margin: 0px 15px 0px 15px;
+	outline:0;
+	color: rgba(209,174,95,1);
+   -webkit-opacity: 1;
+  -moz-opacity: 1;
+  -o-opacity: 1;
+   opacity: 1;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+}
+#selector > button:hover{
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  -o-opacity: 0.5;
+	opacity: 0.5;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+}
+#selector > button:active{
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  -o-opacity: 0.8;
+	opacity: 0.8;
+  -webkit-transition: opacity 0.1s ease-in-out;
+  -moz-transition: opacity 0.1s ease-in-out;
+  -o-transition: opacity 0.1s ease-in-out;
+	transition: opacity 0.1s ease-in-out;
+}
+
+
+.inactive1 #selector .button-next ,.inactive1 #selector .button-last{
+	color: rgba(209,174,95,0.5);
+    pointer-events: none;
+}
+.inactive2 #selector .button-previous,.inactive2 #selector .button-first {
+	color: rgba(209,174,95,0.5);
+    pointer-events: none;
+}
+
+#description{
+position: absolute;
+}
+#content div{
+	width: 1000px;
+	padding-bottom: 0px;
+}
+#content img{
+	position: relative;
+	z-index: 10;
+	text-align: center;
+    width: 1000px;
+}
+.title{
+position:relative;
+top:20px;
+font-family: 'Cabin', Helvetica, Arial, sans-serif;
+text-decoration: underline;
+padding 0 0 0 0;
+font-size: 35px;
+color:rgba(209,174,95,1);
+text-align:center;
+} 
+.subtitle{
+position:relative;
+font-family: 'Cabin', Helvetica, Arial, sans-serif;
+text-decoration: underline;
+padding 0 0 0 0;
+font-size: 25px;
+color:rgba(209,174,95,1);
+text-align:center;
+}
+.subtext{
+position:relative;
+width:900px;
+font-family: 'Cabin', Helvetica, Arial, sans-serif;
+padding 0 0 0 0;
+font-size: 23px;
+color:rgba(209,174,95,1);
+}
+.subImg img{
+position:relative;
+padding 0 0 0 0;
+height:auto;
+max-width:900px;
+}
+.TXTnIMG{
+left: 50%;
+transform: translate(-50%, 0);
+background: rgba(0, 5, 20, 0.2);
+position: relative;
+width:1000px;
+list-style-type: none;
+letter-spacing: 1px;
+}
